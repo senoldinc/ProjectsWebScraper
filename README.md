@@ -25,3 +25,25 @@ This app have a appsettings.json file witch help to settings app configuration:
   } 
  }
 ```
+# Technical Features
+- Visual Studio 2022
+- .NET 6.0
+- C#
+- Microsoft.Extensions.Hosting
+
+## Run
+
+Intstall dependencies:
+```bash
+dotnet restore
+```
+Build:
+```bash
+dotnet build
+```
+
+Compile and run _(from the root path of the project)_:
+```bash
+dotnet run
+```
+
