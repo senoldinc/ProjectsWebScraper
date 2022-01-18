@@ -8,7 +8,8 @@ namespace ProjectsWebScraper.Model
 {
     public class Settings
     {
-        public string WebSite { get; set; }
+        public string WebSiteUrl { get; set; }
         public string SavePath { get; set; }
+        public int ThreadCount { get; set; }
     }
 }
