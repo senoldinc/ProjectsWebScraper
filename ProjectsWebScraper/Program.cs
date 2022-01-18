@@ -28,6 +28,12 @@ if (!string.IsNullOrEmpty(anyKey))
     await DownloadFile(settings.WebSiteUrl, settings.SavePath, "Index", settings.ThreadCount);
 }
 
+/// <summary>
+/// <param name="url">Target scrapping web site adress.</param> 
+/// <param name="savePath"> Directory to saving structure </param>
+/// <param name="saveName"> Saving file name </param>
+/// <param name="threadCount"> Want to be use the count of the core for machine </param>
+/// </summary>
 static async Task DownloadFile(string url, string savePath, string saveName, int threadCount)
 {
     using (WebClient client = new WebClient())
