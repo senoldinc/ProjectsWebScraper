@@ -12,3 +12,16 @@ Install-Package Microsoft.Extensions.Configuration.Binder
 Install-Package Microsoft.Extensions.Configuration.Json
 Install-Package Microsoft.Extensions.Configuration.EnvironmentVariables
 ```
+### Configuration App ###
+
+This app have a appsettings.json file witch help to settings app configuration:
+
+```Json
+{
+  "Settings": {
+    "WebSiteUrl": "https://tretton37.com/",
+    "SavePath": "C:\\Users\\SENOL\\Documents\\Scraping",
+    "ThreadCount":  2
+  } 
+ }
+```
